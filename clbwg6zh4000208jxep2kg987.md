@@ -4,6 +4,8 @@ Hey folks! After a long break, I am continuing my design principles series with 
 
 The name of this principle sounds very serious. But I assure you, there is nothing to be scared of. This is a very simple principle with a scary name. The person who found this principle was Barbara Liskov. Hence the name Liskovs Principle.
 
+# What is Liskov Substitution Principle?
+
 The Liskov Substitution Principle (LSP) is a principle in object-oriented programming that states that objects of a subclass should be able to be used in the same way as objects of the superclass, without the user of the objects needing to be aware of the difference. This means that any subclass of a class should be able to be used in the same way as the superclass, without affecting the correctness of the program.
 
 Okay, that does not help. I know. Let's see what it really means.
