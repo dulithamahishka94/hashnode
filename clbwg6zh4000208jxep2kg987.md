@@ -1,4 +1,4 @@
-# SOLID Design Principles - The Liskov Substitution Principle
+# SOLID Design Principles: The Liskov Substitution Principle
 
 Hey folks! After a long break, I am continuing my design principles series with the next SOLID principle. That is **Liskov Substitution Principle**.
 
