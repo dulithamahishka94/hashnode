@@ -1,4 +1,4 @@
-# SOLID Design Principles - Interface Segregation Principle
+# SOLID Design Principles: Interface Segregation Principle
 
 So, today we are going to talk about the fourth principle in SOLID design principles. It is called **Interface Segregation Principle**.
 
