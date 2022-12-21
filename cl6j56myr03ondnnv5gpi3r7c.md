@@ -1,4 +1,4 @@
-## SOLID Design Principles : Single Responsibility Principle
+# SOLID Design Principles: Single Responsibility Principle
 
 If you read my article about adapter design pattern, at the end I said the pattern followed some solid design principles. Actually the word SOLID does not mean that the principles are solid (you have some SOLID contents in here mate). SOLID belongs to five design principles that was put together into one group. Each word represents a design principle that can be used to produce good code.
 
