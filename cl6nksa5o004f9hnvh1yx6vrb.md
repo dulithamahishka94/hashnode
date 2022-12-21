@@ -1,4 +1,4 @@
-## SOLID Design Principles : Open/ Closed Principle
+# SOLID Design Principles: Open/ Closed Principle
 
 We have learned what the **S** means in SOLID principles. If you haven't read it yet, you can read it from [here](https://dulitharajapaksha.hashnode.dev/solid-design-principles-single-responsibility-principle). 
 
