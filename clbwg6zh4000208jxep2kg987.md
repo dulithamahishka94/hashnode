@@ -70,6 +70,18 @@ Overall, the Liskov Substitution Principle is an important principle to consider
 
 That is about it for the day. Let's meet with the next article on SOLID Principles. That is **Interface Segregation Principle**.
 
+> *Complete list of SOLID principles that I have explained in this series.*
+> 
+> [Single Responsibility Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-single-responsibility-principle)
+> 
+> [Open/Closed Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-open-closed-principle)
+> 
+> [Liskov Substitution Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-the-liskov-substitution-principle)
+> 
+> [Interface Segregation Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-interface-segregation-principle)
+> 
+> [Dependency Inversion Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-dependency-inversion-principle)
+
 Have a good day!
 
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671553592005/z1oKt5iyk.gif align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671553592005/z1oKt5iyk.gif align="left")
