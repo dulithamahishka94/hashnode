@@ -239,6 +239,18 @@ By following the dependency inversion principle, it is easier to create modular,
 
 Okay, here it goes with the **SOLID Design Principles**. It took a little longer than I thought with the break I took. My bad 😥.
 
+> *Complete list of SOLID principles that I have explained in this series.*
+> 
+> [Single Responsibility Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-single-responsibility-principle)
+> 
+> [Open/Closed Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-open-closed-principle)
+> 
+> [Liskov Substitution Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-the-liskov-substitution-principle)
+> 
+> [Interface Segregation Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-interface-segregation-principle)
+> 
+> [Dependency Inversion Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-dependency-inversion-principle)
+
 See you again soon then!
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671624730008/dAeDiH2Je.gif align="left")
