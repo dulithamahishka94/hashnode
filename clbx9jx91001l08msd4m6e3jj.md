@@ -300,4 +300,18 @@ Overall, following the **Interface Segregation Principle** can help you design m
 
 It is for the day then. Hope you enjoyed and learned something from this article. Keep in touch with the blog to see the next article on the final SOLID principle. That is **Dependency Inversion Principle**.
 
+> *Complete list of SOLID principles that I have explained in this series.*
+> 
+> [Single Responsibility Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-single-responsibility-principle)
+> 
+> [Open/Closed Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-open-closed-principle)
+> 
+> [Liskov Substitution Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-the-liskov-substitution-principle)
+> 
+> [Interface Segregation Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-interface-segregation-principle)
+> 
+> [Dependency Inversion Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-dependency-inversion-principle)
+
+Laters gaters!
+
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1671603135380/0bAs9Tv6T.gif align="left")
