@@ -20,28 +20,37 @@ Even though the design principles and design patterns sounds so similar, they ha
 
 # Why should we follow design principles?
 
-1. Clean Code
-2. Easy to maintain
-3. Easily understandable
+1.  Clean Code
+    
+2.  Easy to maintain
+    
+3.  Easily understandable
+    
 
 Design principles will help you to do clean code. Clean code is easily understandable which can lead to higher maintainability.
 
 There is a famous saying "Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live". Unless you want to die by a hand of an angry developer, I suggest you to keep this on your mind.
 
-There are many design principles in the universe of software engineering. Today, I am going to talk about five design principles that are heavily used and heavily asked around in the interviews and surprisingly, **most fail to answer**. 
+There are many design principles in the universe of software engineering. Today, I am going to talk about five design principles that are heavily used and heavily asked around in the interviews and surprisingly, **most fail to answer**.
 
 It is called **SOLID** principles.
 
 # What is SOLID?
 
 SOLID is an acronym of five design principles introduced by Robert C. Martin (aka. Uncle Bob). Those are,
-- **S** - Single Responsibility Principle 
-- **O** - Open Closed Principle
-- **L** - Liskov's Substitution Principle (that looks scary. Actually, it is not)
-- **I** - Interface Segregation Principle
-- **D** - Dependency Inversion Principle
 
-I will be covering each principle of SOLID in separate articles. Otherwise this article will get forever to read. In here, I will be talking about the first principle of SOLID. Which is  *Single Responsibility Principle*.
+*   **S** - Single Responsibility Principle
+    
+*   **O** - Open Closed Principle
+    
+*   **L** - Liskov's Substitution Principle (that looks scary. Actually, it is not)
+    
+*   **I** - Interface Segregation Principle
+    
+*   **D** - Dependency Inversion Principle
+    
+
+I will be covering each principle of SOLID in separate articles. Otherwise this article will get forever to read. In here, I will be talking about the first principle of SOLID. Which is *Single Responsibility Principle*.
 
 ## Single Responsibility Principle
 
@@ -124,27 +133,43 @@ class Receipt {
 	}
 }
 ```
+
 Now, if you have something to do with the receipt, you only have to edit the receipt class. You can assure whatever happens inside the Receipt class, the ATM class works independently. Because you never touch the ATM class if you do not have to. When you do not follow the Single Responsibility Principle, there is a high chance you break another functionality by making changes to a completely new functionality.
 
 > It is not over yet!
 
 ## Advantages of Single Responsibility Principle
 
-- Easy to understand
+*   Easy to understand
+    
 
 When a class has only one purpose, it contains very little number of functions and logics. Hence, it will be smaller in size and it will eventually make the class more understandable.
 
 However, avoid oversimplifying your code. Some programmers take the single responsibility principle to its logical conclusion by developing classes with only one function. Subsequently, whenever they wish to create actual code, they must inject numerous dependencies, making the code unreadable and unclear.
 
-- Easy to maintain
+*   Easy to maintain
+    
 
 Changes are segregated, minimizing the possibility of disrupting other unrelated portions of the software. Because programming faults are inversely related to complexity, making the code more understandable makes it less vulnerable to defects.
 
-- Easy to reuse
+*   Easy to reuse
+    
 
 If a class has multiple responsibilities and just one of those tasks is required in another portion of the software, the other unneeded responsibilities impede reusability. Because the class only has one responsibility, it should be reusable without alteration.
 
 That is about it for the day. Let's meet with the next article on SOLID Principles. That is **Open Closed Principle**.
+
+> *Complete list of SOLID principles that I have explained in this series.*
+> 
+> [Single Responsibility Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-single-responsibility-principle)
+> 
+> [Open/Closed Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-open-closed-principle)
+> 
+> [Liskov Substitution Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-the-liskov-substitution-principle)
+> 
+> [Interface Segregation Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-interface-segregation-principle)
+> 
+> [Dependency Inversion Principle](https://dulitharajapaksha.hashnode.dev/solid-design-principles-dependency-inversion-principle)
 
 Adios!
 
