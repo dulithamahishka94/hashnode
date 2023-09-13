@@ -1,4 +1,14 @@
-## How inheritance can complex your code in OOP design (If you use it wrong)
+---
+title: "How inheritance can complex your code in OOP design (If you use it wrong)"
+seoTitle: "Inheritance or Composition"
+seoDescription: "Inheritance can make your codebase complicated if you do not know when or how to use it. You should consider using composition over inheritance."
+datePublished: Tue Jun 21 2022 05:09:00 GMT+0000 (Coordinated Universal Time)
+cuid: cl4npi9s50311venv0lspc6kn
+slug: how-inheritance-can-complex-your-code-in-oop-design-if-you-use-it-wrong
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1655734797117/fng1iRZwH.png
+tags: software-development, inheritance, object-oriented-programming, composition, simple-yet-awesome
+
+---
 
 How was your life when you started programming? Was it good? Or was it bad? For me, it was both. Good because it felt like a nice vibe to be a programmer, and also kind of bad because I had no idea what I was doing. There is this, there is that and there is this that. What are you talking about?
 
@@ -9,10 +19,15 @@ So, if you remember, all of you started programming by coding something on a fil
 Then the concept of Object Oriented Programming (OOP) came into action around 1966-1967. Everything was separated into pieces and called them classes and functions (methods in some languages). They were treated as objects to ease the interaction in between them.
 
 There are four core object-oriented concepts.
+
 1. Encapsulation
+    
 2. Abstraction
+    
 3. Inheritance
+    
 4. Polymorphism
+    
 
 Among these, the concept inheritance plays a major role. But if you do not know when to use inheritance, you'll be in a big trouble. Even though inheritance looks best, it can complex your solutions and codebases like no other. Let's talk about inheritance a bit more.
 
@@ -39,6 +54,7 @@ class Animal {
     }
 }
 ```
+
 Now you have two sub classes.
 
 ```php
@@ -52,6 +68,7 @@ class Bird extends Animal {
     }
 }
 ```
+
 Above has no issues because mammals and birds are animals. So they can inherit the parent class functionalities.
 
 Now, let's take the Bird class. Bird has a function called `fly()`. Because birds can fly. But could everyone? Can Ostrich fly? Nope! So, can I extend Bird class and make a child class called Ostrich? Can. But it is wrong. Hence I need another class above Ostrich.
@@ -71,6 +88,7 @@ class BirdsCannotFly extends Bird {
     
 }
 ```
+
 Hmm, now it looks good. But, even though Ostrich cannot fly, it can run . Penguins cannot fly or run, they swim. Again, I have to make another two classes for both animals.
 
 ```php
@@ -105,6 +123,7 @@ class Invoice {
     }
 }
 ```
+
 This has no issue. This is totally acceptable. Now, imagine you need to add a payment class which also needs a sales tax calculation.
 
 ```php
@@ -159,13 +178,14 @@ class SalesTax {
     }
 }
 ```
+
 Yey!! We did use inheritance and solved our problem in a correct way. **Or did we?**
 
 Even though this works properly, it does not mean that it is implemented in a correct way. **Most of us use inheritance to reduce the code duplication. AND THAT IS WRONG!**.
 
 ![2faa16ab-b0f3-493f-9779-8f040ebe5ef5_text.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1655447137132/vp6eAHxu_.gif align="left")
 
-Inheritance is **never meant to be used to reduce code duplication**. Even though the code works perfectly, it can arise other issues. By inheriting a class, it automatically exposes the public and protected functions to the child class (As I heard, in languages like Java, it also exposes public and protected variables too. But it does not in PHP. Only the functions get exposed to child classes in PHP). However, the `Invoice` and `Payment` classes only care about the `calculateSalesTax($amount)` method. They do not care about the other functions in the `SalesTax` class. So it is basically a waste.
+Inheritance is **never meant to be used to reduce code duplication**. Even though the code works perfectly, it can arise other issues. By inheriting a class, it automatically exposes the public and protected functions to the child class. However, the `Invoice` and `Payment` classes only care about the `calculateSalesTax($amount)` method. They do not care about the other functions in the `SalesTax` class. So it is basically a waste.
 
 And also, inheritance makes a **IS-A** relationship between two classes. So in this case, if we say *Invoice is-a sales tax*, does it sound correct to you? Is invoice a sales tax? Doesn't it sounds fishy? Yes! This is the first red flag that you get when you do something like this. You are trying to make a relationship between two things that do not belong. Like apples and poop 😂
 
@@ -266,7 +286,6 @@ class Villain extends Character {
         // override the attack function.
     }
 }
-
 ```
 
 Now it looks cool. Unfortunately, game creator had a dream of a Turret that night and he tells his idea of a Turret as a Character to the game developers. It should work with inheritance because as the creator said "Turret is a character" in the game. So, the developers have started to write the turret class.
@@ -292,8 +311,11 @@ As you can see, even though the relationship of 'IS-A' makes sense here, the inh
 I am not saying that we do not want inheritance. Inheritance is a very powerful core concept in Object Oriented Programming. But we have to make sure we use the inheritance only when it is needed and only where it is applicable. Otherwise you will end up with complex codebase that is very hard to maintain.
 
 Before you start on inheritance, ask these questions about the code from yourself.
-- Is the relationship between these two objects 'IS-A' or 'HAS-A'?
-- Are there any methods that is useless for the subclasses (Such as `move()` to a turret class)?
+
+* Is the relationship between these two objects 'IS-A' or 'HAS-A'?
+    
+* Are there any methods that is useless for the subclasses (Such as `move()` to a turret class)?
+    
 
 If you get answers from yourself that you can agree with, you can go ahead with the implementation with inheritance. Otherwise it is safe to go with composition.
 
@@ -301,12 +323,6 @@ Hope you folks got an idea about inheritance and composition. Also, when and how
 
 There is also a design principle called "Composition over inheritance" (I will be covering this in a different post under [Design Principles 101](https://dulitharajapaksha.hashnode.dev/series/design-principles-101)).
 
-Okay then. Let's meet again soon. 
+Okay then. Let's meet again soon.
 
 ![brooklyn-nine-nine-jake-peralta.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1655731419089/SMulJ-U1m.gif align="left")
-
-
-
-
-
-
