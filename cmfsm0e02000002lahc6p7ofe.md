@@ -205,18 +205,6 @@ class AuthController extends Controller
         return response()->json(['message' => 'Logged out']);
     }
 }
-
-// 
-// - No rate limiting (welcome brute force attacks!)
-// - No proper API resource transformation (exposing all user data)
-// - No token expiration handling
-// - No refresh token mechanism
-// - Missing CSRF protection setup
-// - No audit trail for login attempts
-// - Token revocation doesn't clear all user sessions
-
-// Developer: "But AI said this follows Laravel conventions! It looks so professional!"
-// Reality: AI gave you 60% of a proper Laravel auth system
 ```
 
 Looks perfect, right? *AI knows Laravel best practices*!
@@ -902,6 +890,6 @@ The future belongs to Laravel developers who can dance with AI while staying tru
 
 ---
 
-***P.S****. - If reading this article made you realize you can't remember how to create a migration without AI assistance, don't panic. You're not broken, you're just out of practice. Start with* `php artisan make:migration` and rediscover the joy of Laravel's beautiful conventions. The goal is not to never use AI, it's to use it to build **better** Laravel applications, **not to avoid learning** Laravel itself.
+***P.S***\*. - If reading this article made you realize you can't remember how to create a migration without AI assistance, don't panic. You're not broken, you're just out of practice. Start with\* `php artisan make:migration` and rediscover the joy of Laravel's beautiful conventions. The goal is not to never use AI, it's to use it to build **better** Laravel applications, **not to avoid learning** Laravel itself.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758392537143/5c11d418-b2af-4675-9e10-adb0ef9606d9.gif align="center")
