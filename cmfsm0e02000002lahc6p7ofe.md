@@ -720,7 +720,7 @@ After using AI to generate Laravel code, can you:
 
 If you answered "no" to any of these, you're probably too dependent on AI.
 
-## The Laravel Recovery Program: Getting Your Framework Skills Bac 💪
+## The Laravel Recovery Program: Getting Your Framework Skills Back 💪
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758392327009/cea721de-1eb8-4e94-89b0-684855225d01.gif align="left")
 
@@ -890,6 +890,6 @@ The future belongs to Laravel developers who can dance with AI while staying tru
 
 ---
 
-***P.S***\*. - If reading this article made you realize you can't remember how to create a migration without AI assistance, don't panic. You're not broken, you're just out of practice. Start with\* `php artisan make:migration` and rediscover the joy of Laravel's beautiful conventions. The goal is not to never use AI, it's to use it to build **better** Laravel applications, **not to avoid learning** Laravel itself.
+***P.S***. - If reading this article made you realize you can't remember how to create a migration without AI assistance, don't panic. You're not broken, you're just out of practice. Start with `php artisan make:migration` and rediscover the joy of Laravel's beautiful conventions. The goal is not to never use AI, it's to use it to build **better** Laravel applications, **not to avoid learning** Laravel itself.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1758392537143/5c11d418-b2af-4675-9e10-adb0ef9606d9.gif align="center")
