@@ -129,7 +129,7 @@ public function show($id)
 }
 ```
 
-### 4\. **Scoped Bindings for Complex Relationships**
+## 4\. Scoped Bindings for Complex Relationships
 
 This is where route model binding truly shines in enterprise apps. Imagine you have a multi-tenant application where posts belong to workspaces:
 
@@ -206,7 +206,7 @@ Route::middleware(['auth', 'can:update,post'])
 
 The model is available to middleware, allowing you to build powerful, reusable authorization logic.
 
-### Eager Loading and N+1 Prevention
+## Eager Loading and N+1 Prevention
 
 You can customize your bindings to eager load relationships:
 
@@ -219,7 +219,7 @@ public function resolveRouteBinding($value, $field = null)
 
 Now every endpoint using that model automatically gets optimized queries. Try coordinating that across 50 developers without route binding.
 
-### API Versioning
+## API Versioning
 
 When you need to version your API, route model binding makes it trivial.
 
@@ -233,7 +233,7 @@ Route::get('/v2/users/{user}', [V2\UserController::class, 'show']);
 
 Each version can customize how models are resolved without touching core logic.
 
-## When You Might Actually Want to Skip It
+# When You Might Actually Want to Skip It
 
 Look, I'm not saying route model binding is perfect for every scenario. There are legitimate cases to skip it:
 
@@ -248,7 +248,7 @@ But these are edge cases. For your standard CRUD REST API endpoints? Route model
 
 # The Real Cost of "Optimizing" Too Early
 
-Here's what I've seen in enterprise codebases that avoided route model binding for "performance":
+Here's what I've seen in enterprise codebases that avoided route model binding for "performance".
 
 * 47 different ways to fetch and validate a User model
     
@@ -269,7 +269,7 @@ That's not optimization. That's premature optimization. And as Donald Knuth said
 
 Route model binding is a pattern that favors **maintainability, consistency, and developer experience** over a theoretical performance concern that rarely matters in practice.
 
-In large enterprise REST APIs where you have:
+In large enterprise REST APIs where you have,
 
 * Multiple developers
     
