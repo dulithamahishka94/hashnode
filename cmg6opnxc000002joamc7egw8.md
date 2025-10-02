@@ -289,7 +289,3 @@ Should you use it everywhere blindly? No. Should you avoid it because of a datab
 Next time someone tells you route model binding is bad, ask them: what's the alternative? Manual model fetching in every single controller method? Because I've maintained both codebases, and I know which one I'd rather work in.
 
 Until next time!
-
----
-
-*What's your take on route model binding? Have you used it in production? Let me know in the comments below!*
