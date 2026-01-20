@@ -1,4 +1,14 @@
-## Do junior developers need to know everything?
+---
+title: "Do junior developers need to know everything?"
+seoTitle: "Do junior developers need to know everything?"
+seoDescription: "Things that a junior developer needs to know when they come to the industry."
+datePublished: Tue Jun 28 2022 06:29:38 GMT+0000 (Coordinated Universal Time)
+cuid: cl4xsgxxi03uf6gnv4ln82xl8
+slug: do-junior-developers-need-to-know-everything
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656248552672/PHLYeiUre.png
+tags: junior-developer, simple-yet-awesome, walk-and-talk, software-engineer-tips
+
+---
 
 If you are an intern, congratulations on your new job. If you are a junior developer, keep pushing harder.
 
