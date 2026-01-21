@@ -164,7 +164,7 @@ Here's the quick comparison for the curious:
 | Aspect | OT | CRDTs |
 | --- | --- | --- |
 | **Architecture** | Needs a central server | Works peer-to-peer |
-| **Complexity** | Complex transformation logic | Complex data structures |
+| **Architecture** | Complex transformation logic | Complex data structures |
 | **Offline support** | Meh | Excellent |
 | **Metadata overhead** | Lower | Higher |
 
