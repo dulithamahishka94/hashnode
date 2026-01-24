@@ -1,4 +1,14 @@
-# How do you scope a project
+---
+title: "How do you scope a project"
+seoTitle: "Effective Project Scoping Techniques"
+seoDescription: "Learn how to effectively scope software projects by defining boundaries, identifying stakeholders, setting timelines, and more to avoid scope creep"
+datePublished: Tue Dec 20 2022 17:22:47 GMT+0000 (Coordinated Universal Time)
+cuid: clbwhuyd9000g08jve45haa3w
+slug: how-do-you-scope-a-project
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671554918935/GWZUDEgN3.png
+tags: software-development, project-management, walk-and-talk, scope-a-project
+
+---
 
 Scoping a project in software engineering entails defining the project's boundaries and constraints to establish a clear understanding of what the project will and will not include. Scoping is an important step in the software development process because it ensures that all interested parties have a complete sense of the goals and expectations, and it helps to prevent scope creep, which refers to the tendency for a project's scope to grow over a period.
 
